@@ -1,0 +1,67 @@
+<html>
+<head>
+<style>
+body{
+background-color: lightblue;
+font-family: sans-serif;
+
+}
+table{
+border: 6px solid Black;
+border-radius: 5px;
+padding: 10px;
+background-color: white;
+text-align: center;
+}
+form{
+background-color: white;
+}
+.clear{
+background-color: green;
+}
+.submit{
+background-color: red;
+}
+</style>
+</head>
+<body>
+<table align="center">
+<tr>
+<td>
+<form action="#" method="post">
+<h2>Student Registration Form</h2>
+<label id="name">Name: </label>
+<input type="text" for="name" name="name" required>
+<br>
+<br>
+<label id="Phone">Phone: </label>
+<input type="tel" for="Phone" name="phone" required>
+<br>
+<br>
+<label id="E-Mail">E-mail: </label>
+<input type="mail" for="name" name="name" required>
+<br>
+<br>
+<label id="year">Year:</label>
+<select required for="year">
+<option>First Year</option>
+<option>Second Year</option>
+<option>Third Year</option>
+<option>Fourth Year</option>
+</select>
+<br>
+<br>
+<label id="remarks">Remarks: </label>
+<br>
+<textarea for="remarks" height="30px" width="70px"></textarea>
+<br>
+<br>
+<button type="clear" class="clear">Clear</button>
+<button type="submit" class="submit">Submit</button>
+</form>
+</td>
+</tr>
+</table>
+</body>
+</html>
+
